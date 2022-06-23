@@ -20,7 +20,7 @@ export default {
   components: true,
   plugins: ["~/plugins/worker.client.js"],
   build: {
-    publicPath: "https://cdn.nuxtjs.org/",
+    // publicPath: "https://cdn.nuxtjs.org/",
     extend(config, { isClient }) {
       config.output.globalObject = "this";
 
